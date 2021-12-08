@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>versity test</title>
+  
+    <link href="/static/css/eu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+   
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+
+
+
+        <div class="text_box">
+            <h1>Best Tecnolozy Based University</h1>
+            <p>   This is the inernational  universitry.Bangladesh top 10 university on is 4 th standar uiniversity</p>
+            <a href=""class="h_btn">Visit us to know more</a>
+
+
+        </div>  
+
+   
+        <div class="nav">
+            <a href="{{url_for("index")}}"><img src="static/image/logo.png"></a>
+             <div class="e_name">
+
+                <h1>Eastern University</h1>
+            </div> 
+            
+            <div class="nav_link" id="navLinks">
+                <div class="sc">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+            </div>
+
+                <ul>
+                    <li class="active"><a href="{{url_for("index")}}"><i class="fa fa-home"></i>HOME</a></li>
+                    <li> <a href=""><i class="fa fa-user"></i>ABOUT</a>
+                    
+                    
+                    
+            <div class="submenu_1">
+
+                <ul>
+    
+                    <li> <a href="{{url_for("eu_profile")}}">Eu profile</a></li>
+                    <li> <a href="">Trusty board</a></li>
+                    <li> <a href="">Authority</a></li>
+                </ul>
+            </div>
+                    
+                    </li>
+                    <li> <a href="{{url_for("course")}}"> <i class="fa fa-clone"></i>ACADEMIC</a>
+                    
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("course")}}">COURSE</a></li>
+                                <li class="hover_me"> <a href="">ADMISSION</a><i class="fa fa-angle-right"></i>
+
+                                    <div class="submenu_2">
+
+                            
+                                        <ul>
+                            
+                                            <li> <a href="#">TUTION AND FEES</a></li>
+                                            <li> <a href="#">ADMISSON FORM</a></li>
+                                            <li> <a href="#">PROGRAM</a></li>
+                                            <li> <a href="#">ADMISSION INFORMAITION</a></li>
+
+
+                                        </ul>
+                                                   
+
+
+                                
+                                
+                                
+                                
+                                </li>
+                                <li class="hover_me"> <a href="">FACULTY</a><i class="fa fa-angle-right"></i>
+                                
+                                
+                                    <div class="submenu_2">
+                                 
+                                        <ul>
+                                           <<li> <a href="#"> IT</a></li>
+                                           <li> <a href="#"> Law</a></li>
+                                           <li> <a href="#"> BBA</a></li>
+                                           <li> <a href="#">English </a></li> 
+
+                                       </ul>
+                                
+                                
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    </li>
+                   
+
+                    <li> <a href="{{url_for("blog")}}"> <i class="fa fa-angellist"></i>BLOG </a></li>
+                    
+                    <li> <a href=""><i class="fa fa-user"></i>LOGIN</a>
+                    
+                        <div class="submenu_1">
+
+                            <ul>
+                
+                                <li> <a href="{{url_for("f_login")}}">Faculty login</a></li>
+                                <li> <a href="{{url_for("login")}}">Student login</a></li>
+                                <li> <a href="alumuni.html">Alumuni login</a></li>
+                            </ul>
+                        </div>
+                    
+                    
+                    </li>
+                    <li> <a href="{{url_for("contact")}}"><i class="fa fa-phone"></i>CONTACT </a></li>
+
+
+
+                </ul>
+
+
+
+
+            </div>
+
+            <div class="sc">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </div>
+
+           
+          
+
+
+        </div>
+
+      
+      
+
+
+
+
+
+    </section>
+ 
+
+
+
+        <!-- caourse html  -->
+
+
+    <div class="course">
+        <h1> Course we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Temporibus expedita architecto dolorem neque 
+            maiores velit odit eligendi repudiandae dolorum unde quibusdam,</p>
+
+        
+     <div class="row">
+         <div class="row_col">
+             <h3>Intermidiate</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloribus tempora dolor corrupti reiciendis, dolores consequuntur. Itaque, soluta, in blanditiis ut iure maiores et cupiditate
+                  architecto voluptates explicabo alias quia repudiandae.</p>
+
+
+         </div>
+
+
+
+         <div class="row_col">
+            <h3>Diploma</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Doloribus tempora dolor corrupti reiciendis, dolores consequuntur. Itaque, soluta, in blanditiis ut iure maiores et cupiditate
+                 architecto voluptates explicabo alias quia repudiandae.</p>
+
+
+        </div>
+
+
+        <div class="row_col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Doloribus tempora dolor corrupti reiciendis, dolores consequuntur. Itaque, soluta, in blanditiis ut iure maiores et cupiditate
+                 architecto voluptates explicabo alias quia repudiandae.</p>
+
+
+        </div>
+
+     </div>       
+    </div>
+
+
+
+    <!-- campus design html -->
+
+    <div class="campus">
+               <h1> Our Global campus</h1>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste nobis, ratione ipsum distinctio hic commodi non adipisci, accusamus expedita vitae, qui porro eligendi 
+                   voluptates et dolor modi! Recusandae, officia excepturi.</p>
+
+
+    </div>
+    
+    <div class="c_row">
+        <div class="campus_col">
+            <img src="static/image/c5.jpg" alt="">
+
+            <div class="layer">
+
+                <h3>Birulia</h3>
+            </div>
+
+        </div>
+
+
+            <div class="campus_col">
+                <img src="static/image/c3.jpg" alt="">
+    
+                <div class="layer">
+    
+                    <h3>Dhaka</h3>
+                </div>
+
+
+    
+        </div>
+
+        <div class="campus_col">
+            <img src="static/image/c4.jpg" alt="">
+    
+            <div class="layer">
+    
+                <h3>Dhaka</h3>
+            </div>
+    
+    
+    
+   
+
+    </div>
+
+    
+</div>
+
+
+<!-- write for facilites html code -->
+
+<div class="facilites">
+    <h1> Our Fcailites</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Vitae aperiam delectus sed ipsa eaque iure error voluptatum illum nisi, esse perferendis facere eligendi quasi
+         corrupti iste? Saepe atque corrupti repellendus!</p>
+        
+
+         <div class="fac_row">
+
+            <div class="fac_col">
+
+                <img src="static/image/c7.jpg" alt="">
+                <h3>World class laibray</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore obcaecati autem officiis nostrum quam, magni nulla sint animi enim dignissimos quas, quis libero ea officia fuga! Sunt, qui dolorem!</p>
+            </div>
+
+            <div class="fac_col">
+
+                <img src="static/image/c8.jpg" alt="">
+                <h3>Cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore obcaecati autem officiis nostrum quam, magni nulla sint animi enim dignissimos quas, quis libero ea officia fuga! Sunt, qui dolorem!</p>
+            </div>
+
+            <div class="fac_col">
+
+                <img src="static/image/c2.jpg" alt="">
+                <h3>Hostel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore obcaecati autem officiis nostrum quam, magni nulla sint animi enim dignissimos quas, quis libero ea officia fuga! Sunt, qui dolorem!</p>
+            </div>
+         </div>
+
+
+</div>
+
+
+
+
+
+<!-- **************testimonial********************** -->
+
+
+<div class="testm">
+<h1>what our student says</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="testm_row">
+<div class="testm_col">
+
+    <img src="static/image/my.jpg" alt="">
+
+    <div class="testm_text">
+
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ipsam unde et quos, debitis dolorum vero sequi perspiciatis </p>.
+        <h3>Mithun</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+
+
+
+
+    </div>
+</div>
+
+
+
+<div class="testm_col">
+
+    <img src="static/image/user2.jpg" alt="">
+
+    <div class="testm_text">
+
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam molestiae nulla, nesciunt quia esse accusamus</p>
+        <h3>David Byer</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        
+        <i class="fa fa-star-half-o"></i>
+
+
+
+
+
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+<!-- *************************design for cta text********************************** -->
+
+<div class="cta">
+    <h1>Enroll for or various online courses<br> Anywhere from the world</h1>
+    <a href="{{url_for("contact")}}"class="h_btn">Contact us</a>
+</div>
+
+
+
+<div class="footer">
+
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nihil, ipsum dolores ab voluptates eos rerum soluta.  <br>Aperiam voluptatum, et fugiat dicta impedit harum ducimus at minima, soluta est voluptatem!</p>
+
+<div class="icons">
+
+    <a href="https://www.facebook.com/"target="blank"><i class="fa fa-2x fa-facebook"></i></a>
+    <a href="https://www.instagram.com/"target="blank"><i class="fa fa-2x fa-instagram"></i></a>
+    <a href="https://www.google.com/"target="blank"><i class="fa fa-2x fa-google"></i></a>
+    <a href="https://twitter.com/?lang=en"target="blank"><i class="fa fa-2x fa-twitter"></i></a>
+    <a href="https://www.youtube.com"target="blank"><i class="fa fa-2x fa-youtube"></i></a>
+
+
+
+</div>
+<p>Made with  <i class="fa fa-heart-o"></i>  by Samaresh Bala Mithun</p>
+
+</div>
+<script src="static/js/eu.js"> </script>
+
+
+   
+</body>
+</html>
